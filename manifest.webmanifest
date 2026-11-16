@@ -1,0 +1,18 @@
+{
+  "name": "Vollik",
+  "short_name": "Vollik",
+  "description": "Vollik — 오브제, 향기, 그리고 공간. 향과 형태로 소장하는 오브제.",
+  "id": "./?app=1",
+  "start_url": "./?app=1#status",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "lang": "ko",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

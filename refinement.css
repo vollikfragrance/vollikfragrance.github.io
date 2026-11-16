@@ -1,0 +1,85 @@
+/* Editorial rhythm for the existing mobile application. */
+:root{--ink:#171917;--secondary:#73756e;--rule:#e3e4df;--gutter:24px}#header{background:#fffffff2;backdrop-filter:blur(16px);border-bottom:1px solid #ededeb}#app{scrollbar-gutter:stable}#shell[data-route=shop] #app{padding-left:0;padding-right:0}.mobile-campaign{position:relative;background:#f5f5f2;padding:18px 0 28px;min-height:560px}.mobile-campaign .home-hero{display:block;height:360px;padding:0 55px}.mobile-campaign .home-hero img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}.mobile-campaign-copy{padding:20px 24px 0}.mobile-campaign-copy>span,.mobile-brand-note>span{font-size:9px;letter-spacing:1.6px}.mobile-campaign-copy h1{font-family:Georgia,'Times New Roman',serif;font-size:50px;line-height:1;letter-spacing:-2px;margin:10px 0 15px}.mobile-campaign-copy p{font-size:12px;color:#64675f;margin-bottom:14px}.mobile-campaign-copy>a{display:inline-block;font-size:11px;border-bottom:1px solid #292d25;padding-bottom:5px}.collection-discovery{padding:40px 24px 0}.collection-discovery .section-label{margin-bottom:24px}.collection-discovery .section-label h2{font-size:20px;font-weight:400}.collection-discovery .section-label>a{font-size:11px}.collection-feature{display:block;border:0;padding:0;margin-bottom:35px}.collection-feature>img{width:100%;aspect-ratio:4/5;object-fit:cover}.collection-feature>div{position:relative;padding:18px 0}.collection-feature small{font-size:9px;letter-spacing:1.4px}.collection-feature h2{font-size:25px;margin:7px 0 10px}.collection-feature p{font-size:12px;line-height:1.6;max-width:75%;margin:0;color:#72766d}.collection-feature span{position:absolute;right:0;top:44px;font-size:10px}.mobile-brand-note{padding:45px 24px;background:#f4f4f1;margin:0 0 30px}.mobile-brand-note h2{font-size:26px;line-height:1.4;letter-spacing:-.8px;margin:20px 0}.mobile-brand-note p{font-size:13px;color:#71756a;line-height:1.8;margin-bottom:24px}.mobile-brand-note a{font-size:12px;text-decoration:underline;text-underline-offset:5px}.footer{margin-top:0;padding-top:35px}.newsletter h2{font-weight:400;font-size:16px}.newsletter p{font-size:12px}.footer-links a,.footer-social a{font-size:12px}.footer-bottom small{font-size:10px;color:#777b72}.product-grid{gap:28px 2px}.product-card .product-image{border-radius:0;background:#f5f5f3}.card-info{padding:14px 14px 0}.card-info a{font-size:12px;font-weight:400}.card-price{font-size:11px;padding:7px 14px 12px}.heart{top:10px;right:8px;min-width:36px;min-height:36px}.collection-switch{margin:18px 24px 0;justify-content:space-between;gap:15px}.collection-switch a{font-size:12px}.category-tabs{gap:18px;padding:12px 24px 18px}.category-tabs .pill{border:0;border-radius:0;background:none;color:#777;padding:5px 0;font-size:11px;min-height:30px}.category-tabs .pill.active{color:#111;border-bottom:1px solid #111}.all-collections-title{padding:24px}.all-collections-title h1{font-family:Georgia,serif;font-size:35px}.all-collections-title p{font-size:11px;color:#888}.breadcrumb{font-size:10px}.photo-banner{height:230px;background:#fff}.photo-banner h1{font-family:Georgia,serif;font-size:36px}.photo-banner small{font-size:9px;letter-spacing:1px}.product-title-row{padding-top:8px}.product-title-row h1{font-size:27px;letter-spacing:-.6px}.product-title-row>span{font-size:13px}.product-description{font-size:13px;line-height:1.85;color:#656a5e}.purchase-options h2{font-size:11px;font-weight:400}.option{border-radius:0;font-size:12px}.button{border-radius:0;font-size:12px;min-height:50px}.purchase-row{gap:10px}.wish-large{border:1px solid #ddd}.accordions summary{font-size:12px}.accordions details>div{font-size:12px;line-height:1.8}.gallery-enlarge{display:block;margin:12px 24px 0 auto;font-size:10px;color:#72776b;padding:8px}.gallery-dots{padding-top:0}.image-modal{width:calc(100% - 24px)!important;max-width:900px!important;padding:35px 16px 16px!important}.image-modal .full-product-image{width:100%;max-height:75dvh;object-fit:contain}.image-modal h2{font-size:13px!important}.recommend h2{font-size:20px;font-weight:400}.premium-empty{text-align:center;padding:70px 24px;min-height:360px}.premium-empty h1{font-family:Georgia,serif;font-size:36px;margin-bottom:20px}.premium-empty p{font-size:13px;color:#74776e;margin-bottom:26px}.premium-empty .button{max-width:260px;margin:auto}.cart-copy>a{font-size:14px}.cart-copy p,.cart-copy>span{font-size:11px}.cart-actions .button{font-size:12px}.cart-item{border-color:#e3e4df}.bag-tabs .pill{font-size:12px}.auth-page h1,.checkout>.page-title,.info-page>.page-title{font-weight:400;letter-spacing:-.5px}.line-field>span{font-size:12px}#tabs{padding-bottom:env(safe-area-inset-bottom,12px)}#tabs a{font-size:14px}#shell[data-route=shop] .footer-social{display:none}
+@media(min-width:900px){.cart-layout{align-items:start;min-height:0}.cart-bottom{margin-top:0!important;align-self:start}.order-summary{margin-top:0!important}.cart-items{min-height:0!important}.cart-actions{gap:10px}.bag-tabs{max-width:1000px;margin:auto}.cart-layout{padding-top:30px}#shell[data-route=cart] #app{padding-top:100px}.product-title-row,.product-description,.purchase-options,.accordions,.thumbnails{max-width:760px;margin-left:auto;margin-right:auto}}
+@media(max-width:360px){.mobile-campaign .home-hero{height:300px}.mobile-campaign{min-height:510px}.collection-switch{gap:12px;margin-inline:20px}.category-tabs{gap:15px;padding-inline:20px}}
+
+/* Archive and Status belong to the installed app, never the web storefront. */
+html[data-experience=web] #tabs{display:none!important}
+html[data-experience=web] #app{padding-bottom:40px}
+html[data-experience=web] #shell[data-route=menu] #app{padding-bottom:40px}
+/* Product-card hearts only; header and product-detail controls retain their sizes. */
+.product-card .heart img{width:14px;height:14px}
+/* Mobile Shop film: preserve the complete portrait composition and logo ending. */
+.mobile-campaign:has(.shop-film){padding-top:0;background:#fff}
+.shop-film{position:relative;width:100%;aspect-ratio:9/16;background:#fff center/contain no-repeat}
+.shop-film-video{display:block;width:100%;height:100%;object-fit:contain}
+.shop-film-video[hidden]{display:none}
+.shop-film-control{position:absolute;right:16px;bottom:16px;padding:10px 14px;min-height:44px;background:#ffffffdc;border:1px solid #ddd;border-radius:0;color:#171917;font:inherit;font-size:11px;cursor:pointer}
+.shop-film-error{position:absolute;bottom:18px;left:20px;right:20px;background:#fffffff0;padding:12px;font-size:12px;text-align:center}
+
+/* Square studio photos fill wishlist cards without letterbox bands. */
+.wish-grid .product-card .product-image{aspect-ratio:1;background:#fff}
+.wish-grid .product-card .product-image img{object-fit:contain;mix-blend-mode:normal}
+
+/* Keep the archive landscape in the viewport; only cards scroll over it. */
+#shell[data-route=archive] #app{overflow:hidden}
+.archive-scene{height:100%;min-height:0;overflow:hidden;padding:0}
+.archive-scene .landscape{position:absolute;inset:0;pointer-events:none}
+.archive-scene .archive-grid{position:absolute;inset:0;overflow-y:auto;overscroll-behavior:contain;align-content:start;margin:0;padding:calc(94px + var(--safe-top,0px)) 35px calc(130px + env(safe-area-inset-bottom,0px));scrollbar-width:none}
+.archive-scene .archive-grid::-webkit-scrollbar{display:none}
+@media(max-width:360px){.archive-scene .archive-grid{padding-inline:24px}}
+
+.shop-film .film-collection-link{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:12px 8px;white-space:nowrap;border:0;background:none;color:#fff;font-size:12px;font-weight:400;text-decoration:none;text-shadow:0 1px 4px #0009;z-index:1}
+.product-card .product-image{aspect-ratio:1;background:#fff}
+.product-card .product-image img{object-fit:contain;mix-blend-mode:normal}
+.shop-film .film-collection-link{color:#161616;background:transparent;text-shadow:none;font-size:14px;font-weight:500;padding-inline:16px;gap:8px}
+.shop-film .film-collection-link::after{content:"↗"}
+
+.product-gallery.studio-gallery .gallery-track img,.thumbnails img,.full-product-image{background:#fff;mix-blend-mode:normal}
+.scent-notice{position:absolute;z-index:3;left:4%;right:4%;bottom:calc(22% + 12px);pointer-events:none;text-align:center;color:#656565;font-size:clamp(12px,3.5vw,16px);line-height:1.55}
+.embedded-status #shell[data-route=status] #app {overscroll-behavior-y:auto}
+
+.scent-notice{opacity:0;transition:opacity .45s ease-out}
+.scent-notice.visible{opacity:1;transition-duration:.12s}
+.scent-record{display:flex;align-items:center;justify-content:space-between;margin:18px 0;font-size:13px}
+.scent-record select{padding:8px;background:white;color:inherit;border:1px solid #ddd}
+
+/* Keep the moss visible behind the tabs in the scaled phone preview. */
+.embedded-status #shell[data-route=status] #tabs::before {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  mask-image: none;
+  -webkit-mask-image: none;
+  background: linear-gradient(to bottom, transparent, rgba(21, 26, 11, .42));
+}
+
+.app-quantity,.app-quantity>div{display:flex;align-items:center}
+.app-quantity{justify-content:space-between;padding:12px 0;font-size:14px}
+.app-quantity>div{border:1px solid #ddd}
+.app-quantity button{width:44px;height:44px}
+.app-quantity button:disabled{opacity:.35}
+.app-quantity output{min-width:2ch;text-align:center;font-variant-numeric:tabular-nums}
+
+@media (max-width:899px) {
+ html[data-experience=app] #tabs a {bottom:calc(var(--safe-bottom) + 3px)}
+ html[data-experience=app] #shell {height:100dvh;max-height:none}
+}
+#modal.archive-dialog {padding:24px;box-shadow:0 12px 48px #12121218}
+#modal.archive-dialog h2 {font:500 20px/1.35 var(--font-ui);letter-spacing:-.035em;margin:4px 38px 20px 0;outline:none}
+#modal.archive-dialog p {font:400 14px/1.65 var(--font-ui);color:#52534f;margin:12px 0 20px}
+#modal.archive-dialog .modal-close {inset:10px 10px auto auto;width:44px;height:44px;display:grid;place-items:center;background:transparent;border:0}
+#modal.archive-dialog .modal-close img {width:14px;height:14px}
+#modal.archive-dialog .archive-picker {gap:22px 12px}
+#modal.archive-dialog .archive-picker span:last-child {font-size:13px;line-height:1.45;letter-spacing:-.015em}
+#modal.archive-dialog .archive-preview + p {font-size:12px;color:#70716c;margin-bottom:8px}
+#modal.archive-dialog .plain-button {font-size:12px;color:#61625e}
+
+#modal.archive-dialog .product-image {
+  aspect-ratio:1; height:auto; background:white;
+}
+#modal.archive-dialog .product-image img, .archive-card img {
+  display:block; width:100%; height:100%; object-fit:cover; mix-blend-mode:normal;
+}
+
+.collection-banner.photo-banner>img{mix-blend-mode:normal}
+.collection-banner.photo-banner>img[src$="/moss-stack.webp"]{filter:brightness(1.015)}

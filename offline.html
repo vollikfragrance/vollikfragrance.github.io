@@ -1,0 +1,14 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Vollik 향 오브제 컬렉션. 인터넷 연결 후 다시 만나보세요."><title>오프라인 — Vollik</title><style>body{font:16px/1.7 Arial,sans-serif;max-width:420px;margin:20vh auto;padding:24px}a{color:inherit}</style>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+
+<script src="./install-guide.js" defer></script>
+<link rel="icon" type="image/png" sizes="64x64" href="./favicon.png"><meta property="og:title" content="오프라인 — Vollik"><meta property="og:description" content="Vollik 향 오브제 컬렉션. 인터넷 연결 후 다시 만나보세요."><meta property="og:type" content="website"></head><h1>Vollik</h1><p>인터넷 연결을 확인해주세요.<br>이 화면은 아직 기기에 저장되지 않았습니다.</p><button type="button">다시 시도</button><script>
+const retry=document.querySelector('button');
+retry.onclick=()=>location.reload();
+try{if(JSON.parse(localStorage.getItem('vollik-test-v2'))?.lang==='en'){
+ document.documentElement.lang='en';document.title='Offline — Vollik';
+ document.querySelector('p').textContent='Check your connection and try again.';
+ retry.textContent='Try again';
+}}catch{}
+</script></html>
