@@ -3,7 +3,7 @@
   "short_name": "Vollik",
   "description": "Vollik — 오브제, 향기, 그리고 공간. 향과 형태로 소장하는 오브제.",
   "id": "./?app=1",
-  "start_url": "./?app=1#status",
+  "start_url": "./app.html?app=1#status",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",

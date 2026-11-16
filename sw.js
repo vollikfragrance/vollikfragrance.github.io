@@ -1,4 +1,4 @@
-const CACHE='vollik-public-v63';
+const CACHE='vollik-public-v64';
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(['./offline.html']))));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('vollik-public-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 // Cache public static files only. Never cache account, order, API, or authentication responses.
